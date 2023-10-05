@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains cucumber_core.module.
+ * Contains cucumber_demo.module.
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;

@@ -1,16 +1,27 @@
 {
-    "name": "drupal/cucumber_core",
-    "type": "drupal-module",
-    "description": "Cucumber Core module",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/cucumber_core",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/cucumber_core",
-        "source": "http://cgit.drupalcode.org/cucumber_core"
-    },
-    "require": {
-      "drupal/core": "^9 || ^10"
+  "name": "drupal/cucumber_demo",
+  "type": "drupal-module",
+  "description": "Cucumber Demo is a demo content for the Cucumber profile installation website, and includes three levels: Small, Medium, Big content",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Webship",
+      "homepage": "http://webship.org",
+      "role": "Maintainer"
     }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/cucumber_demo",
+    "source": "http://cgit.drupalcode.org/cucumber_demo"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require": {
+    "drupal/core": "~10.0",
+    "drupal/webdev": "10.0.x-dev"
+  }
 }
